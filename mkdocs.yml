@@ -1,0 +1,14 @@
+site_name: Docker & Mkdocs
+site_url: https://box-team-doc.com
+nav:
+  - Quick start: index.md
+  - Introduce: about.md
+  - Installation: installation.md
+  - Configurations: configuration.md
+  - Documents:
+    - Docker:
+      - Command: index.md
+    - Mkdocs:
+      - Command: index.md
+theme:
+  name: readthedocs
