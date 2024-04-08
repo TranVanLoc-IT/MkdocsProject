@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" /><link rel="canonical" href="https://box-doc.com/index.html" />
       <link rel="shortcut icon" href="img/favicon.ico" />
-    <title>Command - Docker & Mkdocs</title>
+    <title>Docker & Mkdocs</title>
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "Command";
+        var mkdocs_page_name = "Quick start";
         var mkdocs_page_input_path = "index.md";
-        var mkdocs_page_url = null;
+        var mkdocs_page_url = "/index.html";
       </script>
     
     <!--[if lt IE 9]>
@@ -39,8 +39,14 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="index.html">Quick start</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="index.html">Quick start</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#lenh-tao-project">Lệnh tạo project</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#cau-truc-project">Cấu trúc project</a>
+    </li>
+    </ul>
                 </li>
               </ul>
               <ul>
@@ -51,30 +57,28 @@
                 <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="configuration.html">Configurations</a>
-                </li>
-              </ul>
               <p class="caption"><span class="caption-text">Documents</span></p>
-              <ul class="current">
+              <ul>
                   <li class="toctree-l1"><a class="reference internal" href="#">Docker</a>
     <ul>
-                <li class="toctree-l2"><a class="reference internal" href="index.html">Command</a>
+                <li class="toctree-l2"><a class="reference internal" href="dockerCmd.html">Command</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="dockerExample.html">Example</a>
                 </li>
     </ul>
                   </li>
-                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Mkdocs</a>
-    <ul class="current">
-                <li class="toctree-l2 current"><a class="reference internal current" href="index.html">Command</a>
-    <ul class="current">
-    <li class="toctree-l3"><a class="reference internal" href="#lenh-tao-project">Lệnh tạo project</a>
-    </li>
-    <li class="toctree-l3"><a class="reference internal" href="#cau-truc-project">Cấu trúc project</a>
-    </li>
-    </ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Mkdocs</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mkdocCmd.html">Command</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="mkdocExample.html">Example</a>
                 </li>
     </ul>
                   </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="ref.html">References</a>
+                </li>
               </ul>
       </div>
     </div>
@@ -90,9 +94,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a></li>
-          <li class="breadcrumb-item">Documents</li>
-          <li class="breadcrumb-item">Mkdocs</li>
-      <li class="breadcrumb-item active">Command</li>
+      <li class="breadcrumb-item active">Quick start</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -101,9 +103,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p style="color: red">Dùng pip upgrade để cập nhật bản mới nhất nếu lỗi pip</p>
-
+                <p><meta charset="UTF-8"></p>
+<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<blockquote>
+<p>:warning: <font color="red">Dùng pip upgrade để cập nhật bản mới nhất nếu lỗi pip</font></p>
+</blockquote>
 <h2 id="lenh-tao-project">Lệnh tạo project</h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
@@ -121,7 +125,7 @@ docs/
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="index.html" class="btn btn-neutral float-left" title="Command"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="about.html" class="btn btn-neutral float-right" title="Introduce">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
@@ -144,8 +148,8 @@ docs/
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
     
+      <span><a href="about.html" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
@@ -162,3 +166,8 @@ docs/
 
 </body>
 </html>
+
+<!--
+MkDocs version : 1.5.3
+Build Date UTC : 2024-04-08 14:57:35.784765+00:00
+-->
