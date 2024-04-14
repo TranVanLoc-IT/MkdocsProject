@@ -1,15 +1,16 @@
+<meta charset="UTF-8">
 # Welcome to MkDocs
 
-<p style="color: red">Dùng pip upgrade để cập nhật bản mới nhất nếu lỗi pip</p>
+> :warning: <font color="red">Dùng pip upgrade để cập nhật bản mới nhất nếu lỗi pip</font>
 
-## Commands
+## Lệnh tạo project
 
 * `mkdocs new [dir-name]` - Create a new project.
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
-## Project layout
+## Cấu trúc project
 
     mkdocs.yml    # File cấu hình.
     docs/

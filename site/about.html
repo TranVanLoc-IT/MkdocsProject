@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://box-doc.com/about.html" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Introduce - Docker & Mkdocs</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Introduce";
+        var mkdocs_page_input_path = "about.md";
+        var mkdocs_page_url = "/about.html";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="index.html" class="icon icon-home"> Docker & Mkdocs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="index.html">Quick start</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="about.html">Introduce</a>
+    <ul class="current">
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Documents</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Docker</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="dockerCmd.html">Command</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="dockerExample.html">Example</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="#">Mkdocs</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="mkdocCmd.html">Command</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="mkdocExample.html">Example</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="ref.html">References</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Docker & Mkdocs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html" class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Introduce</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 style="color:orange">About the Docker</h1>
+<h2 id="docker-la-gi">Docker là gì?</h2>
+<p><center><img alt="Docker Image" src="imgs/docker.jpg" /></center></p>
+<blockquote>
+<p><strong>Docker</strong> là một tập hợp các sản phẩm nền tảng dưới dạng dịch vụ (PaaS) sử dụng ảo hóa cấp hệ điều hành để phân phối phần mềm trong các gói được gọi là vùng chứa. Các vùng chứa được cách ly với nhau và đóng gói phần mềm, thư viện và tệp cấu hình của riêng chúng; họ có thể giao tiếp với nhau thông qua các kênh được xác định rõ ràng. Tất cả các bộ chứa đều được điều hành bởi một nhân hệ điều hành duy nhất và do đó sử dụng ít tài nguyên hơn máy ảo.</p>
+<blockquote>
+<p><strong>Docker file</strong>: tệp cấu hình cho docker image chạy container chứa nhiều lệnh thay vì gõ từng lệnh trên command prompt
+<strong>Docker Compose</strong>: tệp cấu hình chạy nhiều container dựa trên image đã có</p>
+</blockquote>
+</blockquote>
+<h2 id="docker-architechture">Docker Architechture</h2>
+<p>:bulb: <img alt="Docker Architechture" src="https://media.geeksforgeeks.org/wp-content/uploads/20221205115118/Architecture-of-Docker.png" /></p>
+<blockquote>
+<p>Docker sử dụng kiến ​​trúc client-server. Máy khách Docker giao tiếp với trình nền docker giúp xây dựng, chạy và phân phối các vùng chứa docker. Máy khách Docker chạy với daemon trên cùng một hệ thống hoặc chúng ta có thể kết nối máy khách Docker với daemon Docker từ xa. Với sự trợ giúp của API REST qua ổ cắm UNIX hoặc mạng, máy khách docker và daemon tương tác với nhau.
+:bulb: <a href="https://www.geeksforgeeks.org/architecture-of-docker/">Chi tiết</a></p>
+</blockquote>
+<h2 id="mkdocs-la-gi">Mkdocs là gì?</h2>
+<p><center><img alt="Mkdocs Image" src="imgs/mkdoc.jpg" title="Mkdocs Image" /></center></p>
+<blockquote>
+<p>Mkdocs là một bộ sinh tự động các trang web tĩnh dành cho xây dựng các trang web tài liệu với ưu điểm nhanh, đơn giản và đẹp.
+Mkdocs được tạo ra nhằm đưa ra giải pháp tốt cho việc tiếp cận tài liệu kỹ thuật.
+Bắt đầu từ sự cần thiết các trang tài liệu người dùng trong dự án protobluff năm 2015.
+Tác giả Martin Donath đã chọn Mkdocs vì sự đơn giản và tập trung vào dự án tài liệu nhưng nhận thấy vài sự thiếu hụt về các chủ đề.
+Năm 2016, phiên bản Mkdocs đầu tiên được phát hành và sau đó đã trở nên phổ biến.
+:bulb: <a href="https://www.mkdocs.org/">Chi tiết</a></p>
+</blockquote>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="index.html" class="btn btn-neutral float-left" title="Quick start"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="index.html" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="installation.html" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
