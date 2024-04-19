@@ -17,5 +17,5 @@ docker network ls | Xem danh sách mạng các image
 **Required**: tên file DockerCompose.yaml
 Lệnh | Tác dụng |
 | ---- | ------- |
-docker compose up | Chạy file DockerCompose.yaml |
-docker compose down | Dừng chạy |
+docker compose up | Chạy file DockerCompose.yaml 
+docker compose down | Dừng chạy 
